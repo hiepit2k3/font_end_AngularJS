@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Login</title>
+    <!-- <link rel="icon" href="../image/logo-tiktok.jpg"> -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
+    <!-- bootstrap v4.6  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="/html/css/login.css" rel="stylesheet">
+
+    <!-- Jquery   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Angular js  -->
+
+    <!-- <script src="../Agulajs/agl.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="../html/js/main.js"></script>
+    <!-- <script src="../html/js/login.js"></script> -->
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> -->
+    <!-- bootstrap  -->
+
+    <style>
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            margin-right: auto;
+        }
+
+        .navbar .home a:focus,
+        .navbar .home a:hover {
+            color: #2c2c2c !important;
+        }
+
+        .navbar a:hover {
+            color: #23B5E1 !important;
+        }
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body ng-app="myApp">
+    <!-- <div class="header">
+        <div class="header_section">
+            <div class="container-fluid"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gioithieu1.html">Giới Thiệu</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gopy.html">Góp Ý</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="hoidap.html">Hỏi Đáp</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- </div>
+        </div>
+    </div>
+    <div class="container" ng-controller="loginCtrl">
+        <div class="form-container mb-3" style="margin-bottom: 30px;">
+            <form action="" name="myForm">
+                <div class="form-group mb-2 mt-2">
+                    <label style=" font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <h3>Tên Đăng Nhập:</h3>
+                    </label>
+                    <input type="text" name="email" ng-model="myEmail" id="username" placeholder="Username and Email"
+                        required style="background-color: rgba(255, 255, 255, 0);">
+                    <p ng-hide="myForm.email.$valid" style="color: red;">Email không được để trống!</p>
+                </div>
+                <div class="form-group mb-2 mt-2">
+                    <label>
+                        <h3>Mật Khẩu:</h3>
+                    </label>
+                    <input type="password" name="pass" id="password" ng-model="pass" placeholder="Password"
+                        style="background-color: rgba(255, 255, 255, 0);" required>
+                    <p ng-hide="myForm.pass.$valid" style="color: red;">Không được để trống Password</p>
+
+                </div>
+
+                <div class="form-group mb-2 mt-2">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-primary" name="Login" ng-click="login()">Login</button>
+                    <a href="../Register.html" class="btn btn-secondary" style="border-radius: 5px;">Đăng
+                        Kí</a>
+                </div>
+            </form>
+        </div>
+    </div> -->
+
+
+
+
+    <div class="section">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-5">
+                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                        <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                        <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+                        <label for="reg-log"></label>
+                        <div class="card-3d-wrap mx-auto">
+                            <div class="card-3d-wrapper">
+                                <div class="card-front" ng-controller="loginCtrl">
+                                    <div class="center-wrap" name="form">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">Log In</h4>
+                                            <div class="form-group">
+                                                <input type="text" name="username" id="username" class="form-style"
+                                                    ng-model="myEmail" placeholder="User Name" id="logpass"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="password" name="password" id="password" class="form-style"
+                                                    ng-model="pass" placeholder="Your Password" id="logpass"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <button href="#" class="btn mt-4" ng-click="login()">submit</button>
+                                            <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your
+                                                    password?</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-back">
+                                    <div class="center-wrap">
+                                        <div class="section text-center" ng-controller="registerCtrl">
+                                            <h4 class="mb-4 pb-3">Sign Up</h4>
+                                            <div class="form-group">
+                                                <input type="text" name="logname" class="form-style"
+                                                    ng-model="user.username" placeholder="User Name" id="logname"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-user"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="text" name="logname" class="form-style"
+                                                    ng-model="user.fullname" placeholder="Your Full Name" id="logname"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-user"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="email" name="logemail" class="form-style"
+                                                    ng-model="user.emai" placeholder="Your Email" id="logemail"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-at"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="password" name="logpass" class="form-style"
+                                                    ng-model="user.passwork" placeholder="Your Password" id="logpass"
+                                                    autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <div class="form-group mt-2">
+                                                <input type="password" name="logpass" class="form-style"
+                                                    ng-model="passwork1" placeholder="Comfirm Password"
+                                                    id="logpass" autocomplete="off">
+                                                <i class="input-icon uil uil-lock-alt"></i>
+                                            </div>
+                                            <button href="#" class="btn mt-4" ng-click="dangki()">submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleUserMenu() {
+            var userMenu = document.getElementById("userMenu");
+            if (userMenu.style.display === "block") {
+                userMenu.style.display = "none";
+            } else {
+                userMenu.style.display = "block";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

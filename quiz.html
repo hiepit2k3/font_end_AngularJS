@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script src="../html/js/user-test.js"></script>
+    <script src="../html/js/quiz.js"></script>
+
+    <style>
+        * {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            z-index: 999;
+        }
+
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1170px;
+            }
+        }
+
+        body {
+            background-color: #f6f6f6;
+            background-color: #f1f3fe;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        a:hover {
+            color: #23B5E1 !important;
+        }
+
+        .navbar li a {
+            display: block;
+            padding: 13px 20px 11px;
+            margin: 0px;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #2c2c2c;
+            border: 2px solid transparent;
+            position: relative;
+        }
+
+        .navbar .home {
+            border: 2px solid #201c1d;
+            border-radius: 3px;
+        }
+
+        .navbar .home a:focus,
+        .navbar .home a:hover {
+            color: #2c2c2c !important;
+        }
+
+        .dropdown-item.active,
+        .dropdown-item:active {
+            color: #fff !important;
+            background-color: #23B5E1 !important;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            z-index: 1 !important;
+            width: 100%;
+            box-shadow: 0 3px 10px 0 rgba(115, 143, 147, 0.3);
+        }
+
+        .sticky2 {
+            padding-top: 4.7rem;
+        }
+
+        h2 {
+            font-size: 42px;
+            font-weight: 300;
+            line-height: 1.52;
+            margin-top: 24px;
+        }
+
+        .spacer {
+            height: 6px;
+            width: 100px;
+            background-color: #23B5E1;
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: #99979c;
+            background-color: #2a2730;
+            margin-top: 30px;
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .footer a:focus,
+        .footer a:hover {
+            color: white !important;
+            text-decoration: underline !important;
+        }
+
+        .footer p {
+            margin-bottom: 0rem !important;
+        }
+    </style>
+
+</head>
+
+<body ng-app="myApp">
+    <header>
+        <div class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="#"></a>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Trang chủ <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="gioithieu1.html">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="lienhe.html">Liên Hệ</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="gopy.html">Góp Ý</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="hoidap.html">Hỏi Đáp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <quizfpoly></quizfpoly>
+</body>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var content = document.getElementById("content");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+            content.classList.add("sticky2");
+        } else {
+            navbar.classList.remove("sticky");
+            content.classList.remove("sticky2");
+        }
+    }
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    function countdown(minutes, seconds) {
+        let countdownElement = document.getElementById('countdown');
+        let minutesElement = document.getElementById('minutes');
+        let secondsElement = document.getElementById('seconds');
+        let totalSeconds = minutes * 60 + seconds;
+
+        let countdownInterval = setInterval(function () {
+            let minutesLeft = Math.floor(totalSeconds / 60);
+            let secondsLeft = totalSeconds % 60;
+
+            let formattedMinutes = minutesLeft < 10 ? "0" + minutesLeft : minutesLeft;
+            let formattedSeconds = secondsLeft < 10 ? "0" + secondsLeft : secondsLeft;
+
+            minutesElement.innerHTML = formattedMinutes;
+            secondsElement.innerHTML = formattedSeconds;
+
+            if (totalSeconds <= 0) {
+                clearInterval(countdownInterval);
+                countdownElement.innerHTML = "Time's up!";
+            } else {
+                totalSeconds--;
+            }
+        }, 1000);
+    }
+</script>
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="../html/js/index.js"></script>
+
+</html>

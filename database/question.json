@@ -1,0 +1,1972 @@
+{
+    "question": [
+        {
+            "idmon": "java01",
+            "ten": "Bộ câu hỏi về lập trình java",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "Java được phát triển vào năm nào?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. 1980"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. 1990"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. 2000"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. 2010"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Kiểu dữ liệu cơ bản nào không tồn tại trong Java?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. long"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. double"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. decimal"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. boolean"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Công cụ phát triển Java nào được sử dụng phổ biến nhất hiện nay?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Eclipse"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. NetBeans"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Visual Studio"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Android Studio"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Java có hỗ trợ tính kế thừa không?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Có"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Không"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tùy thuộc vào phiên bản Java"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Chỉ hỗ trợ kế thừa đơn giản"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Kiểu dữ liệu nào dùng để lưu trữ các giá trị chữ cái trong Java?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. int"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. double"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. char"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. boolean"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Lệnh điều kiện nào sẽ được sử dụng nếu có nhiều hơn 2 điều kiện để kiểm tra trong Java?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. if-else"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. switch-case"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. for"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. while"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Phép toán nào được sử dụng để so sánh giá trị của hai biểu thức trong Java?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. ="
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. =="
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. !="
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. >"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Vòng lặp nào có thể không bao giờ được thực hiện trong Java?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. while"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. do-while"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. for"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Cả A và B đều đúng"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Các biến cục bộ trong Java được khai báo ở đâu?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Bên trong phương thức"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Bên trong lớp"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Bên trong hàm main"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Trong package"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": "Từ khoá nào được sử dụng để khai báo một phương thức trong Java?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. void"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. int"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. String"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. float"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "python01",
+            "ten": "bộ câu hỏi về python",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "Trong Python, lệnh nào được sử dụng để đọc dữ liệu từ một tập tin?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. read()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. write()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. open()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. close()"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Trong Python, lệnh nào được sử dụng để tạo một danh sách mới từ một danh sách hiện có?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. list()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. sort()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. map()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. filter()"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Trong Python, lệnh nào được sử dụng để kiểm tra một giá trị có tồn tại trong một danh sách hay không?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. in"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. for"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. if"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. while"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Trong Python, lệnh nào được sử dụng để tính toán giá trị tuyệt đối của một số?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. abs()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. ceil()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. floor()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. round()"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Trong Python, lệnh nào được sử dụng để đổi chỗ giá trị của hai biến?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. format()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. replace()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. split()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. join()"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Trong Python, lệnh nào được sử dụng để định dạng một chuỗi?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. list()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. sort()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. map()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. filter()"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Trong Python, lệnh nào được sử dụng để tạo ra một số ngẫu nhiên trong một phạm vi cho trước?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. rand()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. randint()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. random()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. choice()"
+                        }
+                    ]
+                },
+                {
+                    "id": 8 ,
+                    "text": "Trong Python, lệnh nào được sử dụng để tạo một chuỗi mới từ một chuỗi hiện có bằng cách loại bỏ các khoảng trắng đầu và cuối?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. trim()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. delete()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. remove()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. strip()"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Trong Python, lệnh nào được sử dụng để tạo một danh sách mới từ một danh sách hiện có?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. list()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. sort()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. map()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. filter()"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Trong Python, lệnh nào được sử dụng để tạo một danh sách mới từ một danh sách hiện có?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. list()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. sort()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. map()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. filter()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "javascript01",
+            "ten": "Bộ câu hỏi về lập trình javascripts",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "JavaScript là ngôn ngữ lập trình nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Ngôn ngữ lập trình đối tượng"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Ngôn ngữ lập trình máy tính"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Ngôn ngữ lập trình web"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Ngôn ngữ lập trình hướng thủ tục"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Cú pháp để khai báo biến trong JavaScript là gì?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. let"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. vatr"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. const"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. def"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Đâu là phép toán logic trong JavaScript?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. && (AND)"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. || (OR)"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. ! (NOT)"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Tất cả đều đúng"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Để gọi hàm trong JavaScript ta sử dụng từ khóa nào?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. call"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. function"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. execute"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. run"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Cách để kiểm tra kiểu dữ liệu của biến trong JavaScript là gì?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. typeof"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. typeof()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. type"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. typeOf"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Hàm setInterval trong JavaScript có chức năng gì?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  Dừng một hành động trong một khoảng thời gian được xác định"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Thực hiện một hành động một lần"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Lặp lại các hành động trong một khoảng thời gian được xác địnhr"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Không có câu trả lời đúng"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Phương thức push() trong JavaScript có chức năng gì?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Thêm một phần tử vào đầu mảng"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Thêm một phần tử vào cuối mảng"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Xóa phần tử đầu tiên của mảng"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Xóa phần tử cuối cùng của mảng"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Để lấy giá trị của một phần tử trong mảng trong JavaScript, ta sử dụng cú pháp nào?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. array.pop()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. array.shift()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. array.push()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. array[index]"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Hàm alert() trong JavaScript có chức năng gì?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Thông báo một thông điệp đến người dùng"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Tạo một prompt để người dùng nhập dữ liệu"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Chuyển hướng người dùng đến một trang web khác"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Không có câu trả lời đúng"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": "Để kiểm tra xem một chuỗi có chứa một ký tự hay không trong JavaScript, ta sử dụng phương thức nào?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. includes()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. indexOf()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. slice()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. split()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "html5",
+            "ten": "Bộ câu hỏi về HTML5",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "HTML5 là phiên bản nào của ngôn ngữ HTML?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. HTML4"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  XHTML"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. HTML3"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Không phải là phiên bản của HTML"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Để khai báo định dạng tài liệu là HTML5, ta sử dụng thẻ nào?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <!DOCTYPE html5>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. <!DOCTYPE html>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  <!DOCTYPE xhtml>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <!DOCTYPE html4>"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Trong HTML5, thẻ nào được sử dụng để tạo ra một phần tử dòng mới?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <br>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. <p>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <hr>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <div>"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Thẻ nào được sử dụng để định nghĩa một tiêu đề trong HTML5?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <header>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. <h1> - <h6>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <title>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <nav>"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Thuộc tính nào được sử dụng để thêm một hình ảnh vào một trang HTML5?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. href"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. alt"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. src"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. style"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Để tạo một liên kết tới một trang web khác trong HTML5, ta sử dụng thẻ nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  <link>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  <href>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <a>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <a>"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Thẻ nào được sử dụng để tạo ra một bảng trong HTML5?<table>",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <table>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  <table>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <tr>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <td>"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Trong HTML5, để tạo một biểu mẫu, ta sử dụng thẻ nào?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <input>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. <form>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <label>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <select>"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Thuộc tính nào được sử dụng để định dạng kiểu chữ trong HTML5?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. font-style"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. text-decoration"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. font-size"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. style"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": "Thẻ nào được sử dụng để định nghĩa một danh sách không có thứ tự trong HTML5?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. <ol>"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. <ul>"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. <li>"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. <dl>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "android01",
+            "ten": "Bộ câu hỏi về lập trình android",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "Ngôn ngữ lập trình nào được sử dụng để phát triển ứng dụng Android?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. C++"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Java"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Python"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. PHP"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Để phát triển ứng dụng Android, ta sử dụng phần mềm nào?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Android Studio"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Visual Studio"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  Eclipse"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. NetBeans"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Để hiển thị một thông báo trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Intent"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Bundle"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Notification"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Context"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Để tạo một giao diện người dùng trong ứng dụng Android, ta sử dụng phương pháp nào?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Layouts"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Activities"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Fragments"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Services"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Để truy cập cơ sở dữ liệu trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Intent"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Bundle"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. ContentProvider"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Context"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Để xử lý sự kiện khi người dùng chọn một mục trong một danh sách trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  Intent"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Bundle"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. AdapterView"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Context"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Để tạo một menu trong ứng dụng Android, ta sử dụng phương pháp nào?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Layouts"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Activities"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Fragments"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. XML"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Để thực hiện một tác vụ nền trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. IntentService"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. AsyncTask"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Service"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Thread"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Để tạo một liên kết đến một trang web trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Intent"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Bundle"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. ContentProvider"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Context"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": "Để hiển thị một hộp thoại cảnh báo trong ứng dụng Android, ta sử dụng lớp nào?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. AlertDialog"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. ProgressDialog"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Toast"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Snackbar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "sql01",
+            "ten": "Bộ câu hỏi về sql server",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "SQL Server là hệ quản trị cơ sở dữ liệu của hãng nào?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Oracle"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Microsoft"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. IBM"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. SAP"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Câu lệnh nào được sử dụng để tạo một bảng trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. ALTER TABLE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. CREATE TABLE"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  DROP TABLE"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. SELECT FROM"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Câu lệnh nào được sử dụng để thêm một bản ghi mới vào bảng trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. ALTER TABLE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. CREATE TABLE"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  INSERT INTO"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. SELECT FROM"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Câu lệnh nào được sử dụng để cập nhật một bản ghi trong bảng trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. DELETE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. ALTER TABLE"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. UPDATE"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D.  CREATE TABLE"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Câu lệnh nào được sử dụng để xóa một bản ghi trong bảng trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. UPDATE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. DELETE"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. CREATE TABLE"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. ALTER TABLE"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Câu lệnh nào được sử dụng để tạo một chức năng mới trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  CREATE PROCEDURE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  CREATE FUNCTION"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. CREATE TRIGGER"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. CREATE INDEX"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Câu lệnh nào được sử dụng để tạo một truy vấn mới trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. CREATE PROCEDURE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  CREATE FUNCTION"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. CREATE VIEW"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. CREATE INDEX"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Câu lệnh nào được sử dụng để thực hiện một truy vấn trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. EXECUTE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. SELECT"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. UPDATE"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. DELETE"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Câu lệnh nào được sử dụng để tạo một truy vấn có điều kiện trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. WHERE"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. JOIN"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. GROUP BY"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. HAVING"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": " Cú pháp nào được sử dụng để chọn các bản ghi có giá trị cột age lớn hơn 18 từ bảng students trong SQL Server?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. SELECT * FROM students WHERE age < 18;"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. SELECT * FROM students WHERE age > 18;"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. SELECT * FROM students WHERE age = 18;"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. SELECT * FROM students WHERE age <> 18;"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "c++",
+            "ten": "Bộ câu hỏi về C++",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "Trong C++, từ khóa nào được sử dụng để định nghĩa một lớp mới?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. class"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  struct"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. union"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. typedef"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Trong C++, từ khóa nào được sử dụng để khai báo một biến không thay đổi?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. mutable"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. static"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  const"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. volatile"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Trong C++, hàm nào được gọi tự động khi một đối tượng được khởi tạo?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Destructor"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Constructor"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  Friend function"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Virtual function"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Trong C++, từ khóa nào được sử dụng để thực hiện kế thừa đa hình giữa các lớp?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. override"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. virtual"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. final"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D.  abstract"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Trong C++, phép toán ++ được sử dụng để thực hiện việc gì?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Trả về giá trị của biến và sau đó tăng giá trị đó lên 1"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Tăng giá trị của biến lên 1 và sau đó trả về giá trị mới của biến đó"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Trả về giá trị của biến và giảm giá trị đó đi 1"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Giảm giá trị của biến đi 1 và sau đó trả về giá trị mới của biến đó"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Trong C++, hàm nào được sử dụng để đọc một ký tự từ bàn phím?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  gets()"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  scanf()"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. cin.get()"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. getchar()"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Trong C++, từ khóa nào được sử dụng để định nghĩa một hàm không trả về giá trị?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. void"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  int"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. double"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. float"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Trong C++, lớp con được phép truy cập đến các thành phần riêng tư (private) của lớp cha thông qua đâu?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Hàm tạo của lớp con"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Hàm hủy của lớp con"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Hàm thành viên của lớp con"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Không được phép truy cập"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Trong C++, phép toán -> được sử dụng để thực hiện việc gì?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Truy cập đến một phần tử trong một mảng"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Truy cập đến một phần tử trong một danh sách liên kết"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Truy cập đến một phần tử trong một cấu trúc"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Tạo một con trỏ đến một biến"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": " Trong C++, từ khóa nào được sử dụng để định nghĩa một hàm thành viên tĩnh của một lớp?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. static"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. const"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. virtual"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. friend"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idmon": "cautrucdulieu01",
+            "ten": "Bộ câu hỏi về cấu trúc dư liệu",
+            "mon": [
+                {
+                    "id": 1,
+                    "text": "Cấu trúc dữ liệu nào có thể được sử dụng để lưu trữ dữ liệu theo cơ chế First-In-First-Out (FIFO)?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Stack"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Linked List"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử có tính chất tương tự như các phần tử khác trong cùng một cấu trúc?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Queue"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Set"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Array"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử dưới dạng các cặp key-value?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Linked List"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C.  Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Hash Table"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử theo thứ tự được xác định bởi khóa của chúng?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Queue"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Set"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D.  Linked List"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử theo thứ tự tăng dần hoặc giảm dần của giá trị của chúng?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Linked List"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Stack"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Binary Search Tree"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử theo cơ chế Last-In-First-Out (LIFO)?",
+                    "Marks": 1,
+                    "anwerid": 101,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  Queue"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Stack"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Linked List"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử theo cơ chế First-In-Last-Out (FILO)?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Queue"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B.  Stack"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Linked List"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử theo thứ tự của khóa và giá trị của chúng?",
+                    "Marks": 1,
+                    "anwerid": 103,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Linked List"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Heap"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "text": "Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử dưới dạng các cặp key-value theo thứ tự của khóa?",
+                    "Marks": 1,
+                    "anwerid": 100,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A.  Linked List"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Tree"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Map"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "text": " Cấu trúc dữ liệu nào được sử dụng để lưu trữ các phần tử trong một danh sách liên kết mà mỗi phần tử chỉ trỏ đến phần tử tiếp theo của danh sách?",
+                    "Marks": 1,
+                    "anwerid": 102,
+                    "answers": [
+                        {
+                            "id": 100,
+                            "text": "A. Stack"
+                        },
+                        {
+                            "id": 101,
+                            "text": "B. Queue"
+                        },
+                        {
+                            "id": 102,
+                            "text": "C. Linked List"
+                        },
+                        {
+                            "id": 103,
+                            "text": "D. Tree"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

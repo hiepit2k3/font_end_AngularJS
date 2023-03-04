@@ -1,0 +1,24 @@
+[
+  {
+   "username": "hiep",
+   "passwork": "1",
+   "img": "ngid01.jpg",
+   "fullname": "Pham Song Hiep",
+   "diachi": "Da Nang",
+   "ngaysinh": "16-06-2003",
+   "sdt": "0234897454",
+   "emai": "hiep@gmail.com",
+   "id": "1"
+  },
+  {
+   "username": "admin",
+   "passwork": "1",
+   "img": "admin.jpg",
+   "fullname": "Admin",
+   "diachi": "Da Nang",
+   "ngaysinh": "01-01-1999",
+   "sdt": "0385476546",
+   "emai": "admin@gmail.com",
+   "id": "2"
+  }
+]

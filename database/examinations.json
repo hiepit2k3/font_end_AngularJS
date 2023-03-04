@@ -1,0 +1,67 @@
+{
+    "examinations": [
+        {
+            "name": "Bài Thi Môn Javascripts",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "mon_java.jfif",
+            "id": "javascript01"
+        },
+        {
+            "name": "Bài Thi Môn Java",
+            "coment": "iBài thi môn Java là một phần quan trọng trong quá trình đánh giá năng lực của sinh viên và các lập trình viên về việc sử dụng ngôn ngữ lập trình Java để phát triển các ứng dụng.",
+            "image": "mon-java-coban.jpg",
+            "id": "java01"
+        },
+        {
+            "name": "Bài Thi Môn Html 5",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "mon-hoc-html5.jfif",
+            "id": "html5"
+        }, {
+            "name": "Bài Thi Môn PyThon ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "python.jfif",
+            "id": "python01"
+        }, {
+            "name": "Lập Trình Android ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "laptrinhandroid.jfif",
+            "id": "android01"
+        }, {
+            "name": "Bài Thi Môn SQL",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "sql.jfif",
+            "id": "sql01"
+        }, {
+            "name": "Bài Thi cấu trúc dữ liệu ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "cautrucdulieu.jfif",
+            "id": "cautrucdulieu01"
+        }, {
+            "name": "Bài Thi Ngôn Ngữ C++",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "c++.jfif",
+            "id": "c++"
+        }, {
+            "name": "Bài Thi Môn PyThon ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "python.jfif",
+            "id": "python01"
+        }, {
+            "name": "Bài Thi Môn PyThon ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "python.jfif",
+            "id": "python01"
+        }, {
+            "name": "Bài Thi Môn PyThon ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "python.jfif",
+            "id": "python01"
+        }, {
+            "name": "Bài Thi Môn PyThon ",
+            "coment": "incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+            "image": "python.jfif",
+            "id": "python01"
+        }
+    ]
+}
